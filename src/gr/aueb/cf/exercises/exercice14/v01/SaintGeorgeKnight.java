@@ -1,4 +1,4 @@
-package gr.aueb.cf.exercises.exercice14;
+package gr.aueb.cf.exercises.exercice14.v01;
 
 /**
  * The SaintGeorgeKnight class represents a knight who embarks on missions.
