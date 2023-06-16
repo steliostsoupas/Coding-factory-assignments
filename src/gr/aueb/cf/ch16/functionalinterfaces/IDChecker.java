@@ -1,6 +1,6 @@
 package gr.aueb.cf.ch16.functionalinterfaces;
 
-@FunctionalInterface
+@FunctionalInterface // predicate
 public interface IDChecker {
 
     /**
