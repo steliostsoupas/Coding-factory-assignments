@@ -1,4 +1,4 @@
-package gr.aueb.cf.exercises.exercice14.v02;
+package gr.aueb.cf.exercises.exercise14.v02;
 
 /**
  * The User class represents a user with an ID, first name, and last name.
