@@ -2,24 +2,28 @@ package gr.aueb.cf.ch15;
 
 public class Main {
 
-    private final static Point[] points;
-    private static int count = 0;
-    private static int count2D = 0;
-    private static int count3D = 0;
-
-    static {
-        points = new Point[] {
-                new Point(1), new Point2D(1, 2), new Point3D(1, 2, 3),
-                new Point(29), new Point3D(4, 9, 23)
-        };
-    }
+//    private final static Point[] points;
+//    private static int count = 0;
+//    private static int count2D = 0;
+//    private static int count3D = 0;
+//
+//    static {
+//        points = new Point[] {
+//                new Point(1), new Point2D(1, 2), new Point3D(1, 2, 3),
+//                new Point(29), new Point3D(4, 9, 23)
+//        };
+//    }
 
     public static void main(String[] args) {
 
         //Point p1 = new Point(10);
-        Point p2 = new Point2D(1, 1);
-        p2.movePlus10();
-        System.out.println(p2);
+//        Point p2 = new Point2D(1, 1);
+//        p2.movePlus10();
+//        System.out.println(p2);
+
+        Point point = new Point(5,7);
+        System.out.println(PointUtil.distanceFromOrigin(point));
+
 
 //        for (Point point : points) {
 //            if (point instanceof Point3D) {

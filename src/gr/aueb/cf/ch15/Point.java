@@ -2,11 +2,17 @@ package gr.aueb.cf.ch15;
 
 public class Point {
     private int x;
+    private double origin;
 
     public Point(){}
 
     public Point(int x) {
         this.x = x;
+    }
+
+    public Point(int x, double origin) {
+        this.x = x;
+        this.origin = origin;
     }
 
     public int getX() {
@@ -43,5 +49,9 @@ public class Point {
 
     private void reset() {
         x = 0;
+    }
+
+    public double getDistanceFromOrigin() {
+        return x - origin;
     }
 }

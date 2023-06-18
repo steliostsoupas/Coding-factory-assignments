@@ -43,4 +43,9 @@ public class Point3D extends Point2D {
         super.movePlus10();
         z += 10;
     }
+
+    @Override
+    public double getDistanceFromOrigin() {
+        return Math.sqrt(getX() * getX() + getY() * getY() + getZ() * getZ());
+    }
 }
