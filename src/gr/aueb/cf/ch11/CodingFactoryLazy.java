@@ -6,7 +6,7 @@ package gr.aueb.cf.ch11;
  */
 public class CodingFactoryLazy {
 
-    private static CodingFactoryLazy INSTANCE= null;
+    private static CodingFactoryLazy INSTANCE = null;
 
     private CodingFactoryLazy() {}
 
