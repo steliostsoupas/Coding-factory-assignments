@@ -2,6 +2,16 @@ package gr.aueb.cf.ch17.cloneable;
 
 import java.util.Objects;
 
+/**
+ * Represents a city.
+ * <p>
+ * This class encapsulates the attributes and behavior of a city,
+ * including its name.
+ * </p>
+ * <p>
+ * The class implements the {@link Cloneable} interface to support cloning.
+ * </p>
+ */
 public class City implements Cloneable{
     private String name;
 

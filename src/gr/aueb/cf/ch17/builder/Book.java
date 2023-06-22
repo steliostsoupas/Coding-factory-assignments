@@ -6,6 +6,9 @@ public class Book {
     private final String author;
     private final String title;
 
+    /**
+     * Builder class for constructing Book objects.
+     */
     public static class Builder {
         // Required fields
         private final long id;
@@ -35,6 +38,11 @@ public class Book {
         }
     }
 
+    /**
+     * Constructs a new Book object using the Builder pattern.
+     *
+     * @param builder The Builder instance used to construct the Book object.
+     */
     private Book (Builder builder) {
         this.id = builder.id;
         this.isbn = builder.isbn;

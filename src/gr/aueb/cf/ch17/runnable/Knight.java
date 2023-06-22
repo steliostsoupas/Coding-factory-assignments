@@ -1,5 +1,12 @@
 package gr.aueb.cf.ch17.runnable;
 
+/**
+ * Represents a knight who can embark on missions.
+ * <p>
+ * This class implements the {@link IKnight} and {@link Runnable} interfaces.
+ * It can embark on missions and can be executed as a separate thread.
+ * </p>
+ */
 public class Knight implements IKnight, Runnable {
 
     private static final IMission[] missions = {

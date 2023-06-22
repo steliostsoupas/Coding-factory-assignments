@@ -3,6 +3,17 @@ package gr.aueb.cf.ch17.serial;
 import java.io.Serializable;
 import java.util.Objects;
 
+/**
+ * Represents a student.
+ *
+ * This class encapsulates the attributes and behavior of a student,
+ * including their ID, first name, and last name.
+ *
+ *
+ * The class implements the {@link java.io.Serializable} interface
+ * to support serialization.
+ *
+ */
 public class Student implements Serializable {
     private final static long serialVersionUID = 1;
     private int id;

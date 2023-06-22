@@ -1,5 +1,8 @@
 package gr.aueb.cf.ch17.callback;
 
+/**
+ * A demonstration class for the Knight interface and callback functionality.
+ */
 public class KnightApp {
 
     public static void main(String[] args) {

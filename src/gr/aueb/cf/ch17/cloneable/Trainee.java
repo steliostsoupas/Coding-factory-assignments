@@ -2,6 +2,16 @@ package gr.aueb.cf.ch17.cloneable;
 
 import java.util.Objects;
 
+/**
+ * Represents a trainee.
+ * <p>
+ * This class encapsulates the attributes and behavior of a trainee,
+ * including their name and the city they belong to.
+ * </p>
+ * <p>
+ * The class implements the {@link Cloneable} interface to support cloning.
+ * </p>
+ */
 public class Trainee implements Cloneable {
     private String name;
     private City city;
