@@ -1,6 +1,6 @@
 package gr.aueb.cf.ch16.shapes;
 
-public class Circle extends AbstractShape implements ITwoDimensional, ICircle {
+public class Circle extends Shape implements ITwoDimensional, ICircle {
     private double radius;
 
     public Circle() {}
@@ -28,5 +28,10 @@ public class Circle extends AbstractShape implements ITwoDimensional, ICircle {
     @Override
     public double getArea() {
         return Math.PI * Math.pow(radius, 2);
+    }
+
+    @Override
+    public double getDiameter() {
+        return 0;
     }
 }

@@ -1,6 +1,6 @@
 package gr.aueb.cf.ch16.shapes;
 
-public class Line extends AbstractShape {
+public class Line extends Shape {
     private Point p1;
     private Point p2;
 
@@ -33,5 +33,15 @@ public class Line extends AbstractShape {
                 "p1=" + p1 +
                 ", p2=" + p2 +
                 '}';
+    }
+
+    @Override
+    public double getArea() {
+        return 0;
+    }
+
+    @Override
+    public double getDiameter() {
+        return 0;
     }
 }
